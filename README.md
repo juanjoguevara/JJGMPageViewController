@@ -34,7 +34,7 @@ JJGMPageViewController *pageViewController = [[JJGMPageViewController alloc] ini
 
 [pageViewController addViewControllers:@[firstViewController,secondViewController,thirdViewController]];
 
-[pageViewController goLast]
+[pageViewController goLast];
 ```
 
 ## Author
