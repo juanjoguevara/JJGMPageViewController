@@ -1,0 +1,22 @@
+{
+  "name": "JJGMPageViewController",
+  "version": "0.1.0",
+  "summary": "A short description of JJGMPageViewController.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/juanjoguevara/JJGMPageViewController",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "juanjoguevara": "juanjoguevara@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/juanjoguevara/JJGMPageViewController.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JJGMPageViewController/Classes/**/*"
+}

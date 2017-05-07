@@ -1,0 +1,16 @@
+PODS:
+  - JJGMPageViewController (0.1.0)
+
+DEPENDENCIES:
+  - JJGMPageViewController (from `../`)
+
+EXTERNAL SOURCES:
+  JJGMPageViewController:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JJGMPageViewController: f7a4b8ba15cd646ea1a6de083f6cbc60e7619af4
+
+PODFILE CHECKSUM: df82d7f7ede9d3ba93253fbf119d85e8cb1eab1b
+
+COCOAPODS: 1.2.1

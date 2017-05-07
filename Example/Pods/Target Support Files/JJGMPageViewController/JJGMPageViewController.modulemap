@@ -1,0 +1,6 @@
+framework module JJGMPageViewController {
+  umbrella header "JJGMPageViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

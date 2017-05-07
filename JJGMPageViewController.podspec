@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'JJGMPageViewController'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of JJGMPageViewController.'
+  s.summary          = 'UIPageViewController programatically. Objective C'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,16 +17,14 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = 'Easy implementation of UIPageViewController programatically. Objective C'
 
   s.homepage         = 'https://github.com/juanjoguevara/JJGMPageViewController'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'juanjoguevara' => 'juanjoguevara@gmail.com' }
   s.source           = { :git => 'https://github.com/juanjoguevara/JJGMPageViewController.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  # s.social_media_url = 'https://twitter.com/juanjoguevara'
 
   s.ios.deployment_target = '8.0'
 
