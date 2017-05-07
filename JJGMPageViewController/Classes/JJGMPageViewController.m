@@ -24,10 +24,12 @@
 
 -(id)init{
     
-    self = [super initWithNibName:@"JJGMPageViewController" bundle:nil];
+    NSBundle *bundle = [NSBundle bundleForClass:JJGMPageViewController.class];
+    
+    self = [super initWithNibName:@"JJGMPageViewController" bundle:bundle];
 
     if (self) {
-        self.bounces = YES;
+      
     }
     
     return self;
@@ -101,7 +103,7 @@
 
     }
     
-    [self goFirst:NO];
+    [self first:NO];
     
     [self addChildViewController:self.pageController];
     [[self view] insertSubview:[self.pageController view] belowSubview:self.pageControl];
@@ -109,8 +111,21 @@
     [[self.pageController view] setFrame:[[self view] bounds]];
     
 }
-
--(void)goPrevious:(BOOL)animated{
+    
+- (void)back{
+    [self back:YES];
+}
+- (void)next{
+    [self next:YES];
+}
+    
+- (void)first{
+    [self back:YES];
+}
+-(void)last{
+    [self next:YES];
+}
+-(void)back:(BOOL)animated{
     
     UIViewController *destinationViewController = [self viewControllerAtIndex:currentIndex-1];
     
@@ -118,20 +133,20 @@
    
 }
 
--(void)goNext:(BOOL)animated{
+-(void)next:(BOOL)animated{
     
     UIViewController *destinationViewController = [self viewControllerAtIndex:currentIndex+1];
     [self move:destinationViewController animated:animated];
     
 }
--(void)goFirst:(BOOL)animated{
+-(void)first:(BOOL)animated{
     
     UIViewController *destinationViewController = [self viewControllerAtIndex:0];
     [self move:destinationViewController animated:animated];
     
 }
 
--(void)goLast:(BOOL)animated{
+-(void)last:(BOOL)animated{
     UIViewController *destinationViewController = [self viewControllerAtIndex:self.viewControllers.count-1];
     [self move:destinationViewController animated:animated];
 
@@ -263,7 +278,7 @@
 }
 
 #pragma mark - UIScrollView Delegate
-
+/*
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView {
     
     if (!self.bounces) {
@@ -275,7 +290,8 @@
     }
     
 }
-
+*/
+/*
 - (void)scrollViewWillEndDragging:(UIScrollView *)scrollView withVelocity:(CGPoint)velocity targetContentOffset:(inout CGPoint *)targetContentOffset {
     
     if (!self.bounces) {
@@ -289,7 +305,7 @@
     
     
 }
-
+*/
 
 
 

@@ -2,7 +2,7 @@
   "name": "JJGMPageViewController",
   "version": "0.1.0",
   "summary": "UIPageViewController programatically. Objective C",
-  "description": "Easy implementation of UIPageViewController programatically. Objective C",
+  "description": "Pages is the easiest way of setting up a UIPageViewController in Objective C. It comes with going to a specific page and navigating backwards and forwards.",
   "homepage": "https://github.com/juanjoguevara/JJGMPageViewController",
   "license": {
     "type": "MIT",
@@ -18,5 +18,10 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "JJGMPageViewController/Classes/**/*"
+  "source_files": "JJGMPageViewController/Classes/**/*",
+  "resource_bundles": {
+    "JJGMPageViewController": [
+      "JJGMPageViewController/Assets/*.xib"
+    ]
+  }
 }

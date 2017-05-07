@@ -11,13 +11,15 @@
 
 @property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
 
-@property (readwrite, nonatomic) BOOL bounces;
-
 -(void)addViewControllers:(NSArray*)array;
 
--(void)goPrevious:(BOOL)animated;
--(void)goNext:(BOOL)animated;
--(void)goFirst:(BOOL)animated;
--(void)goLast:(BOOL)animated;
+-(void)back;
+-(void)next;
+-(void)first;
+-(void)last;
+-(void)back:(BOOL)animated;
+-(void)next:(BOOL)animated;
+-(void)first:(BOOL)animated;
+-(void)last:(BOOL)animated;
 -(void)moveToViewController:(UIViewController*)viewController animated:(BOOL)animated;
 @end

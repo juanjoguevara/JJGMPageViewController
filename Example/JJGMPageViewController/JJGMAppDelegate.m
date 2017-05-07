@@ -8,29 +8,41 @@
 
 #import "JJGMAppDelegate.h"
 #import "JJGMPageViewController.h"
-
+#import "JJGMViewController.h"
 @implementation JJGMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+   
+    
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-    self.window.rootViewController=[UIViewController new];
     
     
-    UIViewController *firstViewController = [[UIViewController alloc] init];
-    UIViewController *secondViewController = [[UIViewController alloc] init];
-    UIViewController *thirdViewController = [[UIViewController alloc] init];
+    JJGMViewController *firstViewController = [[JJGMViewController alloc] initWithNibName:@"JJGMViewController" bundle:nil];
+    JJGMViewController *secondViewController =[[JJGMViewController alloc] initWithNibName:@"JJGMViewController" bundle:nil];
+    JJGMViewController *thirdViewController = [[JJGMViewController alloc] initWithNibName:@"JJGMViewController" bundle:nil];
     
     firstViewController.view.backgroundColor = [UIColor blueColor];
     secondViewController.view.backgroundColor = [UIColor redColor];
     thirdViewController.view.backgroundColor = [UIColor greenColor];
     
+
+    
     JJGMPageViewController *pageViewController = [[JJGMPageViewController alloc] init];
     
     [pageViewController addViewControllers:@[firstViewController,secondViewController,thirdViewController]];
     
+    [pageViewController moveToViewController:secondViewController animated:NO];
     
+    self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:pageViewController];
+   
     [self.window makeKeyAndVisible];
+    UIBarButtonItem *backItem =[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleDone target:pageViewController action:@selector(back)];
+    
+    UIBarButtonItem *nextItem =[[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStyleDone target:pageViewController action:@selector(next)];
+    
+    pageViewController.navigationItem.leftBarButtonItem = backItem;
+    pageViewController.navigationItem.rightBarButtonItem = nextItem;
     // Override point for customization after application launch.
     return YES;
 }
