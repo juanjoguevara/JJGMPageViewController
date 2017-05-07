@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JJGMPageViewController_Example' do
+  pod 'JJGMPageViewController', :path => '../'
+
+  target 'JJGMPageViewController_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
