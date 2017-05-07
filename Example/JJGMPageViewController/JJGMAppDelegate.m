@@ -7,11 +7,30 @@
 //
 
 #import "JJGMAppDelegate.h"
+#import "JJGMPageViewController.h"
 
 @implementation JJGMAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.rootViewController=[UIViewController new];
+    
+    
+    UIViewController *firstViewController = [[UIViewController alloc] init];
+    UIViewController *secondViewController = [[UIViewController alloc] init];
+    UIViewController *thirdViewController = [[UIViewController alloc] init];
+    
+    firstViewController.view.backgroundColor = [UIColor blueColor];
+    secondViewController.view.backgroundColor = [UIColor redColor];
+    thirdViewController.view.backgroundColor = [UIColor greenColor];
+    
+    JJGMPageViewController *pageViewController = [[JJGMPageViewController alloc] init];
+    
+    [pageViewController addViewControllers:@[firstViewController,secondViewController,thirdViewController]];
+    
+    
+    [self.window makeKeyAndVisible];
     // Override point for customization after application launch.
     return YES;
 }

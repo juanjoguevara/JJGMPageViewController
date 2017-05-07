@@ -8,15 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		02B14C4FE95DAD9C00283C280C9FC2C3 /* Pods-JJGMPageViewController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E397A3C633DF5642ECA7ED46B6D18F10 /* Pods-JJGMPageViewController_Tests-dummy.m */; };
-		302D4491537DEB2AA22D65F8232B1981 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		5F8B50403EBC7099B4A4544E6D6EAB14 /* Pods-JJGMPageViewController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BD6CE154682A349E5DBA6142523DD39 /* Pods-JJGMPageViewController_Example-dummy.m */; };
-		8E99BEC41EBFC95B008A5A74 /* JJGMPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E99BEC11EBFC95B008A5A74 /* JJGMPageViewController.h */; };
-		8E99BEC51EBFC95B008A5A74 /* JJGMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E99BEC21EBFC95B008A5A74 /* JJGMPageViewController.m */; };
-		95F3481C3071D3F5693421A5453B2310 /* JJGMPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051FC994E237FB6EA0282653AD99F98 /* JJGMPageViewController-dummy.m */; };
+		62607AE79E8B9DA757FACF35C35E612D /* JJGMPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16A809D0B5F768C60483DEC1BBBDBD03 /* JJGMPageViewController.m */; };
+		63780B05CCF94CE2F70277622570FBC1 /* JJGMPageViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0051FC994E237FB6EA0282653AD99F98 /* JJGMPageViewController-dummy.m */; };
+		66536E285B567C1AA512AFCEBA396763 /* JJGMPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAC8B458F50A39229EBC2D39E0085B7 /* JJGMPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C14B197221830CD4CA09BE2482276BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		AD7D2CFB2C16ED9B0162E6C0E143EFCB /* Pods-JJGMPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2125865BCAEDE434C1E76479494F65E /* Pods-JJGMPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BD8E73441E072F8AADF6A640B2508466 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		BDBA10052302AC939D57759C5B7C23BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		DE8D1808BA3E353B683146E943DAC3F0 /* JJGMPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAC8B458F50A39229EBC2D39E0085B7 /* JJGMPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D346C43E6F3E2E4DF9346EE845AAED37 /* JJGMPageViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = F43E178CEB68517283C68D4AE60F557A /* JJGMPageViewController.xib */; };
+		EC7CB42930E96E189B45076AC3BFA3BA /* JJGMPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8CC1C22A5AE01557CFA36B6DC2368A /* JJGMPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFAD52683004A27B93E614485807ED4B /* Pods-JJGMPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FFD4CE51AD79B47B11E7522665E2CB /* Pods-JJGMPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -25,7 +26,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 9A87E53A3DB24974233A48DA95D0083C;
+			remoteGlobalIDString = 9B6625A7470CF31D770CF3236E980823;
 			remoteInfo = JJGMPageViewController;
 		};
 /* End PBXContainerItemProxy section */
@@ -34,37 +35,37 @@
 		0051FC994E237FB6EA0282653AD99F98 /* JJGMPageViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JJGMPageViewController-dummy.m"; sourceTree = "<group>"; };
 		12D8681529D780C893AD024719921C2C /* Pods-JJGMPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		15F3F7D8F4E839D13F2CDEB9AADDD0F4 /* Pods-JJGMPageViewController_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGMPageViewController_Tests-resources.sh"; sourceTree = "<group>"; };
+		16A809D0B5F768C60483DEC1BBBDBD03 /* JJGMPageViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = JJGMPageViewController.m; sourceTree = "<group>"; };
 		1E727307F56E1171BAE9D6F0208B51CC /* JJGMPageViewController.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JJGMPageViewController.xcconfig; sourceTree = "<group>"; };
 		43778E79C0B1705604AD9DA3A6D6D402 /* Pods-JJGMPageViewController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGMPageViewController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		500A6461820B22F44822A55FA021C604 /* Pods-JJGMPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		57FFD4CE51AD79B47B11E7522665E2CB /* Pods-JJGMPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJGMPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		657A829BA7B3B6762BEDF60B8478E25A /* Pods-JJGMPageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGMPageViewController_Example-resources.sh"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		6822338C2CD82D8B334E3B5A018ADF81 /* JJGMPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JJGMPageViewController.modulemap; sourceTree = "<group>"; };
+		6822338C2CD82D8B334E3B5A018ADF81 /* JJGMPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JJGMPageViewController.modulemap; sourceTree = "<group>"; };
 		6BD6CE154682A349E5DBA6142523DD39 /* Pods-JJGMPageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJGMPageViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		6CBC242085421066493496E4506E538A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D2679BB857F052939D35705D78585F0 /* Pods-JJGMPageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJGMPageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7225686491AE0DAE16F88350F49466E4 /* Pods_JJGMPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJGMPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7225686491AE0DAE16F88350F49466E4 /* Pods_JJGMPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJGMPageViewController_Tests.framework; path = "Pods-JJGMPageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5E91821C23053B836007917660057D /* JJGMPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJGMPageViewController-prefix.pch"; sourceTree = "<group>"; };
-		8E99BEC11EBFC95B008A5A74 /* JJGMPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGMPageViewController.h; sourceTree = "<group>"; };
-		8E99BEC21EBFC95B008A5A74 /* JJGMPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGMPageViewController.m; sourceTree = "<group>"; };
-		8E99BEC31EBFC95B008A5A74 /* JJGMPageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJGMPageViewController.xib; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98623D10D94C46A88E770B2F8542E6FC /* Pods-JJGMPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9B97A1D3AFC7B13CC7E681A4A1707D83 /* Pods-JJGMPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C68C1E5BAE7D16194CDEACD796C376F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2125865BCAEDE434C1E76479494F65E /* Pods-JJGMPageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJGMPageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		A744910AD58D0576828AD6E2963AC607 /* Pods_JJGMPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJGMPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A744910AD58D0576828AD6E2963AC607 /* Pods_JJGMPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJGMPageViewController_Example.framework; path = "Pods-JJGMPageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78AE703B9C02A7748D970002D4EA068 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3885CE265452A1F493A50349DC68CF /* Pods-JJGMPageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGMPageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7FCD1F6A79B1A9BCEB8F7486C7DC4E6 /* Pods-JJGMPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JJGMPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		C0129F76349DB3DD4E3E05F8EA9E20DF /* Pods-JJGMPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JJGMPageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		B7FCD1F6A79B1A9BCEB8F7486C7DC4E6 /* Pods-JJGMPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JJGMPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		C0129F76349DB3DD4E3E05F8EA9E20DF /* Pods-JJGMPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JJGMPageViewController_Example.modulemap"; sourceTree = "<group>"; };
 		CFB6FDD5642CFE222153262B914EDC24 /* Pods-JJGMPageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJGMPageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D45EE26F77EB9D720367F68D6CCEF714 /* Pods-JJGMPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGMPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDB4B69AA6BDFBC1BB1AE38448B7D137 /* Pods-JJGMPageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGMPageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E397A3C633DF5642ECA7ED46B6D18F10 /* Pods-JJGMPageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJGMPageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		EDAC8B458F50A39229EBC2D39E0085B7 /* JJGMPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJGMPageViewController-umbrella.h"; sourceTree = "<group>"; };
-		FF620032B20C37BD904DAD55F3DBEBD1 /* JJGMPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJGMPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F43E178CEB68517283C68D4AE60F557A /* JJGMPageViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JJGMPageViewController.xib; sourceTree = "<group>"; };
+		FF620032B20C37BD904DAD55F3DBEBD1 /* JJGMPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJGMPageViewController.framework; path = JJGMPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF8CC1C22A5AE01557CFA36B6DC2368A /* JJGMPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JJGMPageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,11 +85,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BBA4F5266C180EE47B6D9D8B69256200 /* Frameworks */ = {
+		4E0FF03599FF0331DC8F675481401D6F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				302D4491537DEB2AA22D65F8232B1981 /* Foundation.framework in Frameworks */,
+				7C14B197221830CD4CA09BE2482276BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,19 +117,11 @@
 		1318D2126E7A691B23455C9C38C9F911 /* JJGMPageViewController */ = {
 			isa = PBXGroup;
 			children = (
-				2567203EEAF5F081C64059FAE00E4841 /* JJGMPageViewController */,
+				3BE004288463C31FE9AC89770AF46083 /* JJGMPageViewController */,
 				682C02A482F7612A1C99F49295E9962F /* Support Files */,
 			);
 			name = JJGMPageViewController;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		2567203EEAF5F081C64059FAE00E4841 /* JJGMPageViewController */ = {
-			isa = PBXGroup;
-			children = (
-				CE2CC7BF7B97A7DB6A233EC995E632A5 /* Classes */,
-			);
-			path = JJGMPageViewController;
 			sourceTree = "<group>";
 		};
 		33CA7D6A3A66D7A85FDA4D0D432B7CA8 /* Development Pods */ = {
@@ -137,6 +130,15 @@
 				1318D2126E7A691B23455C9C38C9F911 /* JJGMPageViewController */,
 			);
 			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		3BE004288463C31FE9AC89770AF46083 /* JJGMPageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				89C9D5CB387FA6FF406AA9AD3BB29AE0 /* Classes */,
+			);
+			name = JJGMPageViewController;
+			path = JJGMPageViewController;
 			sourceTree = "<group>";
 		};
 		517CB39FEA59C292C8AC1FDD7DBB3246 /* Products */ = {
@@ -201,22 +203,23 @@
 			);
 			sourceTree = "<group>";
 		};
+		89C9D5CB387FA6FF406AA9AD3BB29AE0 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				FF8CC1C22A5AE01557CFA36B6DC2368A /* JJGMPageViewController.h */,
+				16A809D0B5F768C60483DEC1BBBDBD03 /* JJGMPageViewController.m */,
+				F43E178CEB68517283C68D4AE60F557A /* JJGMPageViewController.xib */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CE2CC7BF7B97A7DB6A233EC995E632A5 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8E99BEC11EBFC95B008A5A74 /* JJGMPageViewController.h */,
-				8E99BEC21EBFC95B008A5A74 /* JJGMPageViewController.m */,
-				8E99BEC31EBFC95B008A5A74 /* JJGMPageViewController.xib */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
@@ -238,12 +241,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A2B891BFBFD819B61C4FF0081415AD49 /* Headers */ = {
+		BCA4E438715EA59FACB4B34512A896B1 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E99BEC41EBFC95B008A5A74 /* JJGMPageViewController.h in Headers */,
-				DE8D1808BA3E353B683146E943DAC3F0 /* JJGMPageViewController-umbrella.h in Headers */,
+				66536E285B567C1AA512AFCEBA396763 /* JJGMPageViewController-umbrella.h in Headers */,
+				EC7CB42930E96E189B45076AC3BFA3BA /* JJGMPageViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,13 +261,13 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		9A87E53A3DB24974233A48DA95D0083C /* JJGMPageViewController */ = {
+		9B6625A7470CF31D770CF3236E980823 /* JJGMPageViewController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD5194F7A8C2B285BE6FD3350645B2C3 /* Build configuration list for PBXNativeTarget "JJGMPageViewController" */;
+			buildConfigurationList = 42FEDDDD14466ECE3EBB1643CFCE9041 /* Build configuration list for PBXNativeTarget "JJGMPageViewController" */;
 			buildPhases = (
-				A1531672C1529FF95B7275750018F096 /* Sources */,
-				BBA4F5266C180EE47B6D9D8B69256200 /* Frameworks */,
-				A2B891BFBFD819B61C4FF0081415AD49 /* Headers */,
+				C30CE3B2382763D62ECEEFCBB62C39B4 /* Sources */,
+				4E0FF03599FF0331DC8F675481401D6F /* Frameworks */,
+				BCA4E438715EA59FACB4B34512A896B1 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -331,7 +334,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9A87E53A3DB24974233A48DA95D0083C /* JJGMPageViewController */,
+				9B6625A7470CF31D770CF3236E980823 /* JJGMPageViewController */,
 				E0FCAC9033A1610E499C951C62147D81 /* Pods-JJGMPageViewController_Example */,
 				EBC316D5B81F05917852BE1A19181610 /* Pods-JJGMPageViewController_Tests */,
 			);
@@ -339,20 +342,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A1531672C1529FF95B7275750018F096 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8E99BEC51EBFC95B008A5A74 /* JJGMPageViewController.m in Sources */,
-				95F3481C3071D3F5693421A5453B2310 /* JJGMPageViewController-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B68AD08795C604A1E024A9B55DA6AEB0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				5F8B50403EBC7099B4A4544E6D6EAB14 /* Pods-JJGMPageViewController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C30CE3B2382763D62ECEEFCBB62C39B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63780B05CCF94CE2F70277622570FBC1 /* JJGMPageViewController-dummy.m in Sources */,
+				62607AE79E8B9DA757FACF35C35E612D /* JJGMPageViewController.m in Sources */,
+				D346C43E6F3E2E4DF9346EE845AAED37 /* JJGMPageViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +374,7 @@
 		0DED5C01BD8C2D9FE1E9111B32F0DBC0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JJGMPageViewController;
-			target = 9A87E53A3DB24974233A48DA95D0083C /* JJGMPageViewController */;
+			target = 9B6625A7470CF31D770CF3236E980823 /* JJGMPageViewController */;
 			targetProxy = 616C3E04BC18F3F481035F4C03377F0C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,38 +544,6 @@
 			};
 			name = Release;
 		};
-		8060055BA66C5039382C598068AF0280 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E727307F56E1171BAE9D6F0208B51CC /* JJGMPageViewController.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/JJGMPageViewController/JJGMPageViewController-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JJGMPageViewController/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JJGMPageViewController/JJGMPageViewController.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = JJGMPageViewController;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		BA0C1C48788C5854F329499D772D7D92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 12D8681529D780C893AD024719921C2C /* Pods-JJGMPageViewController_Example.release.xcconfig */;
@@ -608,7 +580,7 @@
 			};
 			name = Release;
 		};
-		BC55E6761D467123581DF5A7498D444A /* Debug */ = {
+		D7D2F57857F0D3FE5A0F77B6C28A2AE3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E727307F56E1171BAE9D6F0208B51CC /* JJGMPageViewController.xcconfig */;
 			buildSettings = {
@@ -676,6 +648,38 @@
 			};
 			name = Debug;
 		};
+		E1758A3219B4088BA590A9B78D82ECDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E727307F56E1171BAE9D6F0208B51CC /* JJGMPageViewController.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/JJGMPageViewController/JJGMPageViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JJGMPageViewController/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JJGMPageViewController/JJGMPageViewController.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = JJGMPageViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -684,6 +688,15 @@
 			buildConfigurations = (
 				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
 				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FEDDDD14466ECE3EBB1643CFCE9041 /* Build configuration list for PBXNativeTarget "JJGMPageViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7D2F57857F0D3FE5A0F77B6C28A2AE3 /* Debug */,
+				E1758A3219B4088BA590A9B78D82ECDA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -702,15 +715,6 @@
 			buildConfigurations = (
 				DB3C47C6E6636C422AB5DE0B75A67799 /* Debug */,
 				BA0C1C48788C5854F329499D772D7D92 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		FD5194F7A8C2B285BE6FD3350645B2C3 /* Build configuration list for PBXNativeTarget "JJGMPageViewController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BC55E6761D467123581DF5A7498D444A /* Debug */,
-				8060055BA66C5039382C598068AF0280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

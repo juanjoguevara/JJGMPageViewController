@@ -1,8 +1,8 @@
 {
   "name": "JJGMPageViewController",
   "version": "0.1.0",
-  "summary": "A short description of JJGMPageViewController.",
-  "description": "TODO: Add long description of the pod here.",
+  "summary": "UIPageViewController programatically. Objective C",
+  "description": "Easy implementation of UIPageViewController programatically. Objective C",
   "homepage": "https://github.com/juanjoguevara/JJGMPageViewController",
   "license": {
     "type": "MIT",
