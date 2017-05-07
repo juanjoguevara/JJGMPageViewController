@@ -23,11 +23,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JJGMPageViewController/Classes/**/*'
-  
-   s.resource_bundles = {
-     'JJGMPageViewController' => ['JJGMPageViewController/Assets/*.png'],
-      'JJGMPageViewController' => ['JJGMPageViewController/Assets/*.xib'],
-   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
