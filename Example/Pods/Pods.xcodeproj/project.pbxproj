@@ -16,7 +16,6 @@
 		66536E285B567C1AA512AFCEBA396763 /* JJGMPageViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EDAC8B458F50A39229EBC2D39E0085B7 /* JJGMPageViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C3DC75C8AAA65E161CE606C6E5977B4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		AD7D2CFB2C16ED9B0162E6C0E143EFCB /* Pods-JJGMPageViewController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A2125865BCAEDE434C1E76479494F65E /* Pods-JJGMPageViewController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D346C43E6F3E2E4DF9346EE845AAED37 /* JJGMPageViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = F43E178CEB68517283C68D4AE60F557A /* JJGMPageViewController.xib */; };
 		EC7CB42930E96E189B45076AC3BFA3BA /* JJGMPageViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FF8CC1C22A5AE01557CFA36B6DC2368A /* JJGMPageViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FFAD52683004A27B93E614485807ED4B /* Pods-JJGMPageViewController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 57FFD4CE51AD79B47B11E7522665E2CB /* Pods-JJGMPageViewController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -41,30 +40,30 @@
 		500A6461820B22F44822A55FA021C604 /* Pods-JJGMPageViewController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		57FFD4CE51AD79B47B11E7522665E2CB /* Pods-JJGMPageViewController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJGMPageViewController_Tests-umbrella.h"; sourceTree = "<group>"; };
 		657A829BA7B3B6762BEDF60B8478E25A /* Pods-JJGMPageViewController_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGMPageViewController_Example-resources.sh"; sourceTree = "<group>"; };
-		6822338C2CD82D8B334E3B5A018ADF81 /* JJGMPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = JJGMPageViewController.modulemap; sourceTree = "<group>"; };
+		6822338C2CD82D8B334E3B5A018ADF81 /* JJGMPageViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = JJGMPageViewController.modulemap; sourceTree = "<group>"; };
 		6BD6CE154682A349E5DBA6142523DD39 /* Pods-JJGMPageViewController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJGMPageViewController_Example-dummy.m"; sourceTree = "<group>"; };
 		6CBC242085421066493496E4506E538A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D2679BB857F052939D35705D78585F0 /* Pods-JJGMPageViewController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJGMPageViewController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		7225686491AE0DAE16F88350F49466E4 /* Pods_JJGMPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJGMPageViewController_Tests.framework; path = "Pods-JJGMPageViewController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7225686491AE0DAE16F88350F49466E4 /* Pods_JJGMPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJGMPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B5E91821C23053B836007917660057D /* JJGMPageViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJGMPageViewController-prefix.pch"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8E05EBB61EC08C31009B92A9 /* JJGMPageViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = JJGMPageViewController.xib; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		98623D10D94C46A88E770B2F8542E6FC /* Pods-JJGMPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		9B97A1D3AFC7B13CC7E681A4A1707D83 /* Pods-JJGMPageViewController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JJGMPageViewController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		9C68C1E5BAE7D16194CDEACD796C376F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2125865BCAEDE434C1E76479494F65E /* Pods-JJGMPageViewController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JJGMPageViewController_Example-umbrella.h"; sourceTree = "<group>"; };
-		A744910AD58D0576828AD6E2963AC607 /* Pods_JJGMPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_JJGMPageViewController_Example.framework; path = "Pods-JJGMPageViewController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A744910AD58D0576828AD6E2963AC607 /* Pods_JJGMPageViewController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJGMPageViewController_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78AE703B9C02A7748D970002D4EA068 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AD3885CE265452A1F493A50349DC68CF /* Pods-JJGMPageViewController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGMPageViewController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		B7FCD1F6A79B1A9BCEB8F7486C7DC4E6 /* Pods-JJGMPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JJGMPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
-		C0129F76349DB3DD4E3E05F8EA9E20DF /* Pods-JJGMPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-JJGMPageViewController_Example.modulemap"; sourceTree = "<group>"; };
+		B7FCD1F6A79B1A9BCEB8F7486C7DC4E6 /* Pods-JJGMPageViewController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JJGMPageViewController_Tests.modulemap"; sourceTree = "<group>"; };
+		C0129F76349DB3DD4E3E05F8EA9E20DF /* Pods-JJGMPageViewController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-JJGMPageViewController_Example.modulemap"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CFB6FDD5642CFE222153262B914EDC24 /* Pods-JJGMPageViewController_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JJGMPageViewController_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D45EE26F77EB9D720367F68D6CCEF714 /* Pods-JJGMPageViewController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JJGMPageViewController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		DDB4B69AA6BDFBC1BB1AE38448B7D137 /* Pods-JJGMPageViewController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JJGMPageViewController_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		E397A3C633DF5642ECA7ED46B6D18F10 /* Pods-JJGMPageViewController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JJGMPageViewController_Tests-dummy.m"; sourceTree = "<group>"; };
 		EDAC8B458F50A39229EBC2D39E0085B7 /* JJGMPageViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JJGMPageViewController-umbrella.h"; sourceTree = "<group>"; };
-		F43E178CEB68517283C68D4AE60F557A /* JJGMPageViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = JJGMPageViewController.xib; sourceTree = "<group>"; };
-		FF620032B20C37BD904DAD55F3DBEBD1 /* JJGMPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JJGMPageViewController.framework; path = JJGMPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF620032B20C37BD904DAD55F3DBEBD1 /* JJGMPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JJGMPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF8CC1C22A5AE01557CFA36B6DC2368A /* JJGMPageViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = JJGMPageViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -135,9 +134,9 @@
 		3BE004288463C31FE9AC89770AF46083 /* JJGMPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				8E05EBB51EC08C16009B92A9 /* Resources */,
 				89C9D5CB387FA6FF406AA9AD3BB29AE0 /* Classes */,
 			);
-			name = JJGMPageViewController;
 			path = JJGMPageViewController;
 			sourceTree = "<group>";
 		};
@@ -216,10 +215,16 @@
 			children = (
 				FF8CC1C22A5AE01557CFA36B6DC2368A /* JJGMPageViewController.h */,
 				16A809D0B5F768C60483DEC1BBBDBD03 /* JJGMPageViewController.m */,
-				F43E178CEB68517283C68D4AE60F557A /* JJGMPageViewController.xib */,
 			);
-			name = Classes;
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		8E05EBB51EC08C16009B92A9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8E05EBB61EC08C31009B92A9 /* JJGMPageViewController.xib */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -356,7 +361,6 @@
 			files = (
 				63780B05CCF94CE2F70277622570FBC1 /* JJGMPageViewController-dummy.m in Sources */,
 				62607AE79E8B9DA757FACF35C35E612D /* JJGMPageViewController.m in Sources */,
-				D346C43E6F3E2E4DF9346EE845AAED37 /* JJGMPageViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
