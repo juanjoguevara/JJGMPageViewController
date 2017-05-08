@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/JJGMPageViewController.svg?style=flat)](http://cocoapods.org/pods/JJGMPageViewController)
 [![Platform](https://img.shields.io/cocoapods/p/JJGMPageViewController.svg?style=flat)](http://cocoapods.org/pods/JJGMPageViewController)
 
-Pages is the easiest way of setting up a UIPageViewController in Objective C. It comes with  going to a specific page and navigating backwards and forwards.
+JJGPageViewController is the easiest way to use a UIPageViewController written in Objective C. It comes with  going to a specific page and navigating backwards and forwards.
 
 ## Example
 

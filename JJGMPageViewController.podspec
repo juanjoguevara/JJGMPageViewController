@@ -9,12 +9,11 @@
 Pod::Spec.new do |s|
   s.name             = 'JJGMPageViewController'
   s.version          = '0.1.0'
-  s.summary          = 'UIPageViewController programatically. Objective C'
+  s.summary          = 'UIPageViewController made easy written in Objective C'
 
-  s.description      = 'Pages is the easiest way of setting up a UIPageViewController in Objective C. It comes with going to a specific page and navigating backwards and forwards.'
+  s.description      = 'JJGPageViewController is the easiest way to use a UIPageViewController written in Objective C. It comes with  going to a specific page and navigating backwards and forwards'
 
   s.homepage         = 'https://github.com/juanjoguevara/JJGMPageViewController'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'juanjoguevara' => 'juanjoguevara@gmail.com' }
   s.source           = { :git => 'https://github.com/juanjoguevara/JJGMPageViewController.git', :tag => s.version.to_s }
