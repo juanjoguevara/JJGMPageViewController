@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JJGMPageViewController'
-  s.version          = '0.1.4'
+  s.version          = '0.1.6'
   s.summary          = 'UIPageViewController made easy written in Objective C'
 
   s.description      = 'JJGPageViewController is the easiest way to use a UIPageViewController written in Objective C. It comes with  going to a specific page and navigating backwards and forwards'
@@ -22,9 +22,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'JJGMPageViewController/Classes/**/*'
-  s.resource_bundles = {
-    'JJGMPageViewControllerBundle' => ['JJGMPageViewController/Resources/JJGMPageViewController.xib']
-    }
+  s.resources = ['JJGMPageViewController/Resources/JJGMPageViewController.xib']
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
