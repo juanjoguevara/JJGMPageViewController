@@ -7,9 +7,11 @@
 //
 
 @import UIKit;
+#import "JJGMPageViewController.h"
 
-@interface JJGMAppDelegate : UIResponder <UIApplicationDelegate>
+@interface JJGMAppDelegate : UIResponder <UIApplicationDelegate, JJPageViewControllerDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+@property (strong, nonatomic)  JJGMPageViewController *pageViewController;
 
 @end

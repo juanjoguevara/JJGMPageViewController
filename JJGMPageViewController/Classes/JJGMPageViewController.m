@@ -40,6 +40,11 @@
     
 }
 
+-(void)viewDidAppear:(BOOL)animated{
+    [super viewDidAppear:animated];
+    [self.view bringSubviewToFront:self.pageControl];
+}
+
 - (void)viewDidLoad {
     
     [super viewDidLoad];
@@ -106,9 +111,10 @@
     [self first:NO];
     
     [self addChildViewController:self.pageController];
-    [[self view] insertSubview:[self.pageController view] belowSubview:self.pageControl];
+    [[self view] addSubview:self.pageController.view];
     [self.pageController didMoveToParentViewController:self];
-    [[self.pageController view] setFrame:[[self view] bounds]];
+    [[self.pageController view] setFrame:[UIScreen mainScreen].bounds];
+    
     
 }
     
@@ -174,6 +180,10 @@
         
         [self.pageController setViewControllers:@[viewController] direction:reverse animated:animated completion:^(BOOL finished){
             [weakSelf updateCurrentView];
+            if ([weakSelf.delegate respondsToSelector:@selector(pageViewController:didChangeToViewController:)]) {
+                UIViewController *currentView = [weakSelf.pageController.viewControllers objectAtIndex:0];
+                [weakSelf.delegate performSelector:@selector(pageViewController:didChangeToViewController:) withObject:weakSelf withObject:currentView];
+            }
         }];
     }
     
@@ -226,6 +236,8 @@
 
 -(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed{
     [self updateCurrentView];
+    
+   
 }
 
 -(void)updateCurrentView{

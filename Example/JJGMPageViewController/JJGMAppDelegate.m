@@ -22,21 +22,25 @@
     JJGMViewController *secondViewController =[[JJGMViewController alloc] initWithNibName:@"JJGMViewController" bundle:nil];
     JJGMViewController *thirdViewController = [[JJGMViewController alloc] initWithNibName:@"JJGMViewController" bundle:nil];
     
-    firstViewController.view.backgroundColor = [UIColor blueColor];
-    secondViewController.view.backgroundColor = [UIColor redColor];
-    thirdViewController.view.backgroundColor = [UIColor greenColor];
+   
     
 
     
     JJGMPageViewController *pageViewController = [[JJGMPageViewController alloc] init];
     
+    pageViewController.delegate = self;
     [pageViewController addViewControllers:@[firstViewController,secondViewController,thirdViewController]];
     
-    [pageViewController moveToViewController:secondViewController animated:NO];
-    
-    self.window.rootViewController=[[UINavigationController alloc] initWithRootViewController:pageViewController];
    
-    [self.window makeKeyAndVisible];
+    
+    firstViewController.imageView.image = [UIImage imageNamed:@"1"];
+    secondViewController.imageView.image = [UIImage imageNamed:@"2"];
+    thirdViewController.imageView.image = [UIImage imageNamed:@"3"];
+ 
+    firstViewController.title = @"First view";
+    secondViewController.title = @"Second view";
+    thirdViewController.title = @"Third view";
+
     UIBarButtonItem *backItem =[[UIBarButtonItem alloc] initWithTitle:@"Back" style:UIBarButtonItemStyleDone target:pageViewController action:@selector(back)];
     
     UIBarButtonItem *nextItem =[[UIBarButtonItem alloc] initWithTitle:@"Next" style:UIBarButtonItemStyleDone target:pageViewController action:@selector(next)];
@@ -44,7 +48,17 @@
     pageViewController.navigationItem.leftBarButtonItem = backItem;
     pageViewController.navigationItem.rightBarButtonItem = nextItem;
     // Override point for customization after application launch.
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:pageViewController];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
+     [pageViewController moveToViewController:secondViewController animated:NO];
+    self.pageViewController.title =@"1";
     return YES;
+}
+
+-(void)pageViewController:(JJGMPageViewController*)pageController didChangeToViewController:(UIViewController*)viewController{
+    
+    pageController.title = viewController.title;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application

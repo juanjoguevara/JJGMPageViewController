@@ -2,7 +2,7 @@
   "name": "JJGMPageViewController",
   "version": "0.1.0",
   "summary": "UIPageViewController made easy written in Objective C",
-  "description": "JJGPageViewController is the easiest way of setting up a UIPageViewController in Objective C. It comes with  going to a specific page and navigating backwards and forwards",
+  "description": "JJGPageViewController is the easiest way to use a UIPageViewController written in Objective C. It comes with  going to a specific page and navigating backwards and forwards",
   "homepage": "https://github.com/juanjoguevara/JJGMPageViewController",
   "license": {
     "type": "MIT",

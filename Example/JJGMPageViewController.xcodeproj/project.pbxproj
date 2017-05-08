@@ -21,6 +21,9 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		8E907E381EC04BB2007181A0 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E907E351EC04BB2007181A0 /* 1.png */; };
+		8E907E391EC04BB2007181A0 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E907E361EC04BB2007181A0 /* 2.png */; };
+		8E907E3A1EC04BB2007181A0 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E907E371EC04BB2007181A0 /* 3.png */; };
 		8E99BEC91EBFD25F008A5A74 /* JJGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E99BEC71EBFD25F008A5A74 /* JJGMViewController.m */; };
 		8E99BECA1EBFD25F008A5A74 /* JJGMViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E99BEC81EBFD25F008A5A74 /* JJGMViewController.xib */; };
 		8E99BECE1EBFD46C008A5A74 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8E99BECD1EBFD46C008A5A74 /* LaunchScreen.xib */; };
@@ -58,6 +61,9 @@
 		64882B6E5904A55AD768EF9E /* Pods_JJGMPageViewController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JJGMPageViewController_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C637D20D1D36B01A2661244 /* Pods-JJGMPageViewController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJGMPageViewController_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJGMPageViewController_Example/Pods-JJGMPageViewController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7E0FCC90A5CB47AF50E71204 /* Pods-JJGMPageViewController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JJGMPageViewController_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JJGMPageViewController_Tests/Pods-JJGMPageViewController_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8E907E351EC04BB2007181A0 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8E907E361EC04BB2007181A0 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		8E907E371EC04BB2007181A0 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
 		8E99BEC61EBFD25F008A5A74 /* JJGMViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JJGMViewController.h; sourceTree = "<group>"; };
 		8E99BEC71EBFD25F008A5A74 /* JJGMViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JJGMViewController.m; sourceTree = "<group>"; };
 		8E99BEC81EBFD25F008A5A74 /* JJGMViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JJGMViewController.xib; sourceTree = "<group>"; };
@@ -143,6 +149,7 @@
 		6003F593195388D20070C39A /* Example */ = {
 			isa = PBXGroup;
 			children = (
+				8E907E341EC04B88007181A0 /* Assets */,
 				6003F59C195388D20070C39A /* JJGMAppDelegate.h */,
 				6003F59D195388D20070C39A /* JJGMAppDelegate.m */,
 				8E99BEC61EBFD25F008A5A74 /* JJGMViewController.h */,
@@ -194,6 +201,16 @@
 				C1CDCDFE5DC4979ACA9DC8B4 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		8E907E341EC04B88007181A0 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				8E907E351EC04BB2007181A0 /* 1.png */,
+				8E907E361EC04BB2007181A0 /* 2.png */,
+				8E907E371EC04BB2007181A0 /* 3.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -282,10 +299,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E907E391EC04BB2007181A0 /* 2.png in Resources */,
 				8E99BECE1EBFD46C008A5A74 /* LaunchScreen.xib in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				8E99BECA1EBFD25F008A5A74 /* JJGMViewController.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8E907E3A1EC04BB2007181A0 /* 3.png in Resources */,
+				8E907E381EC04BB2007181A0 /* 1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

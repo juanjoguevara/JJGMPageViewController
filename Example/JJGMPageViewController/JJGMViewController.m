@@ -26,6 +26,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.imageView.image = [UIImage imageNamed:@"1"];
     // Do any additional setup after loading the view from its nib.
 }
 
