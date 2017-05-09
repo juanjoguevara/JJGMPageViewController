@@ -26,7 +26,7 @@
     
     NSBundle *bundle = [NSBundle bundleForClass:JJGMPageViewController.class];
     
-    self = [super initWithNibName:@"JJGMPageViewController" bundle:bundle];
+    self = [super init];
 
     if (self) {
       
@@ -42,13 +42,18 @@
 
 -(void)viewDidAppear:(BOOL)animated{
     [super viewDidAppear:animated];
-    [self.view bringSubviewToFront:self.pageControl];
+    
 }
 
 - (void)viewDidLoad {
     
     [super viewDidLoad];
-        
+    self.pageControl =[[UIPageControl alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height-30, self.view.frame.size.width, 30)];
+    
+    self.pageControl.autoresizingMask = UIViewAutoresizingFlexibleWidth | UIViewAutoresizingFlexibleTopMargin;
+    self.pageControl.backgroundColor = [UIColor clearColor];
+    [self.view addSubview:self.pageControl];
+
     self.pageControl.transform=CGAffineTransformMakeScale(0.7, 0.7);
     self.pageControl.pageIndicatorTintColor=[[UIColor whiteColor] colorWithAlphaComponent:0.5];
     self.pageControl.currentPageIndicatorTintColor=[UIColor whiteColor];
@@ -114,7 +119,7 @@
     [[self view] addSubview:self.pageController.view];
     [self.pageController didMoveToParentViewController:self];
     [[self.pageController view] setFrame:[UIScreen mainScreen].bounds];
-    
+    [self.view bringSubviewToFront:self.pageControl];
     
 }
     
@@ -237,7 +242,10 @@
 -(void)pageViewController:(UIPageViewController *)pageViewController didFinishAnimating:(BOOL)finished previousViewControllers:(NSArray *)previousViewControllers transitionCompleted:(BOOL)completed{
     [self updateCurrentView];
     
-   
+    if ([self.delegate respondsToSelector:@selector(pageViewController:didChangeToViewController:)]) {
+        UIViewController *currentView = [self.pageController.viewControllers objectAtIndex:0];
+        [self.delegate performSelector:@selector(pageViewController:didChangeToViewController:) withObject:self withObject:currentView];
+    }
 }
 
 -(void)updateCurrentView{

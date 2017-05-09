@@ -12,7 +12,7 @@
 
 @interface JJGMPageViewController : UIViewController 
 
-@property (weak, nonatomic) IBOutlet UIPageControl *pageControl;
+@property (strong, nonatomic) UIPageControl *pageControl;
 @property (weak, nonatomic) id  delegate;
 
 -(void)addViewControllers:(NSArray*)array;
