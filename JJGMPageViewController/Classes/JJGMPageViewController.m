@@ -24,8 +24,7 @@
 
 -(id)init{
     
-    NSBundle *bundle = [NSBundle bundleForClass:JJGMPageViewController.class];
-    
+ 
     self = [super init];
 
     if (self) {
