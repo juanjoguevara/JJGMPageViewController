@@ -7,7 +7,7 @@
 
 JJGPageViewController is the easiest way to use a UIPageViewController written in Objective C. It comes with  going to a specific page and navigating backwards and forwards.
 
-![screenshot](./Example/Screenshots/animated.gif)
+![screenshot](./Screenshots/animated.gif)
 ## Example
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
